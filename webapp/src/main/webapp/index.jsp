@@ -10,7 +10,7 @@
     <br>
 
 
-    <label for="ADHAR CARD"><b>Email</b></label>
+    <label for="ADHAR CARD"><b>ADHAR</b></label>
     <input type="text" placeholder="Enter ADHAR" name="ADHAR" id="ADHAR" required>
     <br>
 
