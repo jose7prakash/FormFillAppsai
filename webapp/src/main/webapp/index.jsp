@@ -1,7 +1,7 @@
 <form action="action_page.php">
   <div class="container">
     <h1>Welcome!! Maranamass malai dx DevOps Student Registration Form!!</h1>
-    <p>NANTHANDA ABINIMALAN!!!</p>
+    <p>NANTHANDA PUNDA!!!</p>
     <hr>
     <br>  
 
