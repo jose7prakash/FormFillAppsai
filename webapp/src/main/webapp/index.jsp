@@ -1,31 +1,39 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>Welcome!! Maranamass malai dx DevOps Student Registration Form!!</h1>
-    <p>NANTHANDA PUNDA!!!</p>
-    <hr>
-    <br>  
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
-
-
-    <label for="ADHAR CARD"><b>ADHAR</b></label>
-    <input type="text" placeholder="Enter ADHAR" name="ADHAR" id="ADHAR" required>
-    <br>
-
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <br>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-</form>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Example</title>
+    </head>
+    <body>
+        <form method="post" action="login.jsp">
+            <center>
+            <table border="1" width="30%" cellpadding="3">
+                <thead>
+                    <tr>
+                        <th colspan="2">Login Here</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>User Name</td>
+                        <td><input type="text" name="uname" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="pass" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Login" /></td>
+                        <td><input type="reset" value="Reset" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Yet Not Registered!! <a href="reg.jsp">Register Here</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            </center>
+        </form>
+    </body>
+</html>
